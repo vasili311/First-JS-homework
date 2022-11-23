@@ -1,16 +1,17 @@
 // TASK 1:
 
-   const twoNumber = function (a, b) {
-      if (a === b) {
-          console.log(ტოლია);
-          return "ეს ორი რიცხვი ტოლია";
-      } else {
-          console.log(არარისტოლი);
-          return "ეს ორი რიცხვი არ არის ტოლი";
-      }
-  }
+   function twoNumberEqual(a, b) {
+    if (a === b){
+        return "Equal"
+    } else {
+        return "Not Equal"
 
- twoNumber(4,2)
+    }
+}
+
+console.log (twoNumberEqual(3, 3 )); // Equal
+console.log (twoNumberEqual(5, 6 )); // Not Equal
+
 
 // TASk 2:
 
