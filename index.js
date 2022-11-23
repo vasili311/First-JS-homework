@@ -1,7 +1,7 @@
 // TASK 1:
 
    const twoNumber = function (a, b) {
-      if (a == b) {
+      if (a === b) {
           console.log(ტოლია);
           return "ეს ორი რიცხვი ტოლია";
       } else {
