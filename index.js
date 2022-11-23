@@ -14,16 +14,18 @@
 
 // TASk 2:
 
+function convertFahrenheitToCelsius(temperature) {
+	
+	return (temperature - 32) * (5/9)
+}
 
 
+let theirInput = prompt("Enter in a Fahrenheit temperature & I'll convert it to Celsius");
+
+let result = convertFahrenheitToCelsius(theirInput);
 
 
-
-
-
-
-
-
+alert(result);
 
 
 
