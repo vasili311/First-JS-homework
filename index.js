@@ -42,8 +42,8 @@ function newCalculateoperation(a, b, operation) {
     else if (operation === '/') return a / b;
 
 }
-console.log(calculate(3,3,"+")) // 6
-console.log(calculate (4,2,"-")) // 2
-console.log(calculate(3,2,"*")) // 6
-console.log(calculate (6,2,"/")) // 3
-console.log(calculate(c,3,"+")) // false
+console.log(newCalculateoperation(3,3,"+")) // 6
+console.log(newCalculateoperation (4,2,"-")) // 2
+console.log(newCalculateoperation(3,2,"*")) // 6
+console.log(newCalculateoperation (6,2,"/")) // 3
+console.log(newCalculateoperation(c,3,"+")) // false
